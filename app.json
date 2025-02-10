@@ -10,19 +10,38 @@
     "splash": {
       "image": "./assets/splash-icon.png",
       "resizeMode": "contain",
-      "backgroundColor": "#ffffff"
-    },
-    "ios": {
-      "supportsTablet": true
-    },
-    "android": {
-      "adaptiveIcon": {
-        "foregroundImage": "./assets/adaptive-icon.png",
-        "backgroundColor": "#ffffff"
+      "backgroundColor": "#ffffff",
+      "extra": {
+        "googleServices": {
+          "clientId": "557735113830-o6epkc3tgbg7tjb51fuihuskmpp82nk6.apps.googleusercontent.com"
+        }
       }
     },
-    "web": {
-      "favicon": "./assets/favicon.png"
+    "extra": {
+      "eas": {
+        "projectId": "9ac9052b-f5c2-4017-8d33-5aa34114ac0c"
+      }
+    },
+    "android": {
+      "package": "com.syedmohamma.camp"
+    }
+  },
+  "ios": {
+    "supportsTablet": true
+  },
+  "android": {
+    "package": "com.camp.camp",
+    "adaptiveIcon": {
+      "foregroundImage": "./assets/adaptive-icon.png",
+      "backgroundColor": "#ffffff"
+    }
+  },
+  "web": {
+    "favicon": "./assets/favicon.png"
+  },
+  "extra": {
+    "eas": {
+      "projectId": "9ac9052b-f5c2-4017-8d33-5aa34114ac0c"
     }
   }
 }
